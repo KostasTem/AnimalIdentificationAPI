@@ -1,0 +1,14 @@
+bovidae: bison, cattle, buffalo, sheep, goat
+canidae: wolf, dog, fox, coyote
+cervidae: deer, elk, moose
+chiroptera: bat
+diprotodontia: koala, wombat, possum, kangaroo
+equidae: horse, donkey, zebra
+feliformia: hyena, lion, tiger, cat, lynx
+lagomorpha: rabbit, hare
+musteloidea: otter, raccoon, skunk, ferret
+primate: monkey, ape, gorrila, chimpanzee, orangutan
+proboscidea: elephant
+rodentia: rat, beaver, squirrel, porcupine, guinea pig
+suina: pig
+ursoidea: bear, panda
