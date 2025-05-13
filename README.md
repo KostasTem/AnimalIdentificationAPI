@@ -11,7 +11,7 @@ from animal_classification import AnimalClassificationModel
 topLevelModel = AnimalClassificationModel("TopLevelClassifier", "TopLevelClassifierData", True)
 topLevelModel.train()
 ```
-To train the classifiers for each order you need to make a folder named PerOrderClassifierData, add folders for each order inside it, add a folder for each animal contained in each order in the corresponding folders which contain images of each animal.
+To train the classifiers for each order you need to make a folder named PerOrderClassifierData, add folders for each order inside it and finaly add a folder for each animal containing pictures of it in the corresponding order folders.
 ```python
 for order in topLevelModel.classes:
      perOrderModels[order] = AnimalClassificationModel(f"{order.title()}Classifier", f"PerOrderClassifierData/{order}", True)
